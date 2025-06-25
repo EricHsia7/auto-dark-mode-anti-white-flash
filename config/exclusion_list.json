@@ -1,0 +1,59 @@
+{
+  "exclusion_list": [
+    {
+      "description": "",
+      "name": "Google Accounts",
+      "pattern": "*://accounts.google.*/*"
+    },
+    {
+      "description": "",
+      "name": "Google Myaccount",
+      "pattern": "*://myaccount.google.*/*"
+    },
+    {
+      "description": "",
+      "name": "Google Accounts",
+      "pattern": "*://accounts.google.*.*/*"
+    },
+    {
+      "description": "",
+      "name": "Google Myaccount",
+      "pattern": "*://myaccount.google.*.*/*"
+    },
+    {
+      "description": "To avoid reCAPTCHA.",
+      "name": "YouTube",
+      "pattern": "*://*.youtube.com/*"
+    },
+    {
+      "description": "",
+      "name": "Github",
+      "pattern": "*://github.*/*"
+    },
+    {
+      "description": "",
+      "name": "Github Dev",
+      "pattern": "*://*.github.dev/*"
+    },
+    {
+      "description": "",
+      "name": "Github Sites",
+      "pattern": "*://*.github.com/*"
+    },
+    {
+      "description": "",
+      "name": "Twitter",
+      "pattern": "*://twitter.*/*"
+    },
+    {
+      "description": "",
+      "name": "X",
+      "pattern": "*://x.*/*"
+    },
+    {
+      "description": "",
+      "name": "ChatGPT",
+      "pattern": "*://chatgpt.com/*"
+    }
+  ]
+}
