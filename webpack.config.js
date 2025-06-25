@@ -46,7 +46,7 @@ module.exports = (env, argv) => {
     mode: 'production', // Set the mode to 'production' or 'development'
     entry: './src/index.ts', // Entry point of your application
     output: {
-      filename: isProduction ? 'auto-dark-mode.user.js' : 'auto-dark-mode.dev.js', // Output bundle filename
+      filename: isProduction ? 'auto-dark-mode-anti-white-flash.user.js' : 'auto-dark-mode-anti-white-flash.dev.js', // Output bundle filename
       path: path.resolve(__dirname, 'dist'), // Output directory for bundled files
       publicPath: './',
       library: {
@@ -71,7 +71,7 @@ module.exports = (env, argv) => {
         {
           test: /\.css$/i,
           use: [
-            { loader: 'style-loader', options: { attributes: { id: 'auto-dark-mode-interface' }, injectType: 'singletonStyleTag' } },
+            { loader: 'style-loader', options: { attributes: { id: 'auto-dark-mode-anti-white-flash-interface' }, injectType: 'singletonStyleTag' } },
             'css-loader',
             {
               loader: 'postcss-loader',

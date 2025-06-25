@@ -1,20 +1,20 @@
 {
-  "name": "@erichsia7/auto-dark-mode",
+  "name": "@erichsia7/auto-dark-mode-anti-white-flash",
   "version": "0.24.3",
   "description": "Darken Any Website",
-  "main": "auto-dark-mode.user.js",
+  "main": "auto-dark-mode-anti-white-flash.user.js",
   "private": false,
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/EricHsia7/auto-dark-mode.git"
+    "url": "https://github.com/EricHsia7/auto-dark-mode-anti-white-flash.git"
   },
-  "keywords": ["auto-dark-mode", "userscript"],
+  "keywords": ["auto-dark-mode-anti-white-flash", "userscript"],
   "author": "EricHsia7",
   "bugs": {
-    "url": "https://github.com/erichsia7/auto-dark-mode/issues"
+    "url": "https://github.com/erichsia7/auto-dark-mode-anti-white-flash/issues"
   },
-  "homepage": "https://erichsia7.github.io/auto-dark-mode/",
+  "homepage": "https://erichsia7.github.io/auto-dark-mode-anti-white-flash/",
   "devDependencies": {
     "@babel/core": "^7.27.4",
     "@babel/plugin-syntax-flow": "^7.27.1",
