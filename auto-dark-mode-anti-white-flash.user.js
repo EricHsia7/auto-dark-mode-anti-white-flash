@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         auto-dark-mode
+// @name         auto-dark-mode-anti-white-flash
 // @version      0.0.1
 // @description  Darken Any Website
 // @author       erichsia7
 // @inject-into  content
-// @updateURL    https://erichsia7.github.io/auto-dark-mode/auto-dark-mode.user.js
-// @downloadURL  https://erichsia7.github.io/auto-dark-mode/auto-dark-mode.user.js
+// @updateURL    https://erichsia7.github.io/auto-dark-mode-anti-white-flash/auto-dark-mode-anti-white-flash.user.js
+// @downloadURL  https://erichsia7.github.io/auto-dark-mode-anti-white-flash/auto-dark-mode-anti-white-flash.user.js
 // @match        *://*/*
 // @grant        GM_xmlhttpRequest
 // @run-at       document-idle
