@@ -1,14 +1,13 @@
 // ==UserScript==
 // @name         auto-dark-mode-anti-white-flash
-// @version      0.0.1
-// @description  Darken Any Website
+// @version      0.0.2
+// @description  Prevent white flash under dark mode in Safari
 // @author       erichsia7
 // @inject-into  content
 // @updateURL    https://erichsia7.github.io/auto-dark-mode-anti-white-flash/auto-dark-mode-anti-white-flash.user.js
 // @downloadURL  https://erichsia7.github.io/auto-dark-mode-anti-white-flash/auto-dark-mode-anti-white-flash.user.js
 // @match        *://*/*
-// @grant        GM_xmlhttpRequest
-// @run-at       document-idle
+// @run-at       document-start
 // @exclude      *://accounts.google.*/*
 // @exclude      *://myaccount.google.*/*
 // @exclude      *://accounts.google.*.*/*
