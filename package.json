@@ -1,6 +1,6 @@
 {
   "name": "@erichsia7/auto-dark-mode-anti-white-flash",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Darken Any Website",
   "main": "auto-dark-mode-anti-white-flash.user.js",
   "private": false,
