@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         auto-dark-mode-anti-white-flash
-// @version      0.0.6
+// @version      0.0.7
 // @description  Prevent white flash under dark mode in Safari
 // @author       erichsia7
 // @inject-into  content
@@ -20,4 +20,4 @@
 // @exclude      *://x.*/*
 // @exclude      *://chatgpt.com/*
 // ==/UserScript==
-var autodarkmode;(()=>{"use strict";var a={d:(e,t)=>{for(var o in t)a.o(t,o)&&!a.o(e,o)&&Object.defineProperty(e,o,{enumerable:!0,get:t[o]})},o:(a,e)=>Object.prototype.hasOwnProperty.call(a,e)},e={};a.d(e,{default:()=>o});var t={initialize:function(){var a=document.createElement("style");a.textContent="@media (prefers-color-scheme:dark){html{background-color:#000}body{opacity:0}}@media (prefers-color-scheme:light){html{background-color:#fff}body{opacity:0}}@keyframes auto-dark-mode-anti-white-flash-fade-in{0%{opacity:0}to{opacity:1}}.auto_dark_mode_anti_white_flash_fade_in{animation-direction:normal;animation-duration:.5s;animation-fill-mode:forwards;animation-name:auto-dark-mode-anti-white-flash-fade-in;animation-timing-function:ease;opacity:0}.auto_dark_mode_anti_white_flash_faded_in{opacity:1}",document.head.prepend(a),document.body.addEventListener("animationend",function(){document.body.classList.add("auto_dark_mode_anti_white_flash_faded_in"),document.body.classList.remove("auto_dark_mode_anti_white_flash_fade_in")},{once:!0}),document.addEventListener("autodarkmodeinitialized",function(){setTimeout(function(){document.body.classList.add("auto_dark_mode_anti_white_flash_fade_in")},300)})}};t.initialize();const o=t;autodarkmode=e.default})();
+var autodarkmode;(()=>{"use strict";var e={d:(t,o)=>{for(var r in o)e.o(o,r)&&!e.o(t,r)&&Object.defineProperty(t,r,{enumerable:!0,get:o[r]})},o:(e,t)=>Object.prototype.hasOwnProperty.call(e,t)},t={};function o(){var e=document.createElement("style");e.textContent="@media (prefers-color-scheme:dark){body:empty{background-color:#171717}}@media (prefers-color-scheme:light){body:empty{background-color:#fff}}",document.head.prepend(e)}e.d(t,{default:()=>a});var r={initialize:function(){o(),window.addEventListener("pageshow",function(e){e.persisted&&o()})}};r.initialize();const a=r;autodarkmode=t.default})();
