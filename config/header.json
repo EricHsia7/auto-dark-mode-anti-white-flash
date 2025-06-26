@@ -1,6 +1,6 @@
 {
   "name": "auto-dark-mode-anti-white-flash",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Prevent white flash under dark mode in Safari",
   "author": "erichsia7",
   "inject-into": "content",

@@ -1,7 +1,7 @@
 {
   "name": "@erichsia7/auto-dark-mode-anti-white-flash",
-  "version": "0.0.4",
-  "description": "Darken Any Website",
+  "version": "0.0.5",
+  "description": "Prevent white flash under dark mode in Safari",
   "main": "auto-dark-mode-anti-white-flash.user.js",
   "private": false,
   "scripts": {},

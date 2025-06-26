@@ -1,7 +1,6 @@
 import { initialize } from './initialize';
 
-import './css/background.css';
-import './css/mask.css';
+import './css/index.css';
 
 var autoDarkModeAntiWhiteFlash = {
   initialize
